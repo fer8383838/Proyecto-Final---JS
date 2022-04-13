@@ -1,0 +1,68 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+
+h1, h2, h3 {
+    margin-top: 0;
+    padding-top: 40px;
+}
+h1, h2 {
+    text-align: center;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.salir {
+    width: 20px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+    display: block;
+    margin: 0 auto;
+    margin-left:90%;
+}
+
+main {
+    padding-top: 40px;
+    padding-bottom: 10%;
+}
+
+#Fernando, #Julio, #Carlos {
+    padding-bottom: 40px;
+}
+
+.salir {
+    display: grid;
+    justify-items: center;
+}
+
+.contenedor2 {
+    width: 80%;
+    margin: 0 auto;
+}
+#form {
+
+    display: grid;
+    /* justify-items: center;
+    justify-content: center; */
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.Julio, .Finn, .Fernando, .Finn, .Rachel, .Carlos {
+    text-align: center;
+}
+
+/* #Fernando, #Carlos, #Rachel {
+    display: flex;
+    justify-content: center;
+} */

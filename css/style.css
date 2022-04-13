@@ -1,0 +1,46 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: turquoise;
+}
+
+.contenedor {
+    width: 60%;
+    padding-top: 80px;
+    text-align: center;
+    margin: 0 auto;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p1 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.p2 {
+    display: inline-block;
+    margin: 0 auto;
+}
