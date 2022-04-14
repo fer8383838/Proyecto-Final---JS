@@ -595,7 +595,7 @@ function mostrarInfo(alumnos) {
     function salir() {
         let salir = document.querySelector("a");
 
-        salir.addEventListener("click", () => window.location.replace("http://127.0.0.1:5500/1.index.html"));
+        salir.addEventListener("click", () => window.location.replace("http://127.0.0.1:5500/index.html"));
     }
 
     function aprobado() {
