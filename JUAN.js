@@ -180,7 +180,7 @@ function mostrarInfo(alumnos) {
         if (promedio == null) {
             promedio = 0;
         } else {
-            let resultado2 = document.querySelector('div.Fernando');
+            let resultado = document.querySelector('div.Fernando');
             let p = document.createElement("p");
             p.innerHTML = "PC1 = " + notas[0] + " " + "PC2 = " + notas[1] + " " + "PC3 = " + notas[2] + ".";
             resultado.appendChild(p);
