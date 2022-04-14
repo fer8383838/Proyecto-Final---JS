@@ -105,19 +105,19 @@ function cambioPagina() {
     let user = document.getElementById("userInput");
     if (user.value === "ANA") {
         setTimeout(() => {
-            window.location.replace("http://127.0.0.1:5500/ANA.html")
+            location.href="ANA.HTML";
         }, 1000)
     } else if (user.value === "DANIEL") {
         setTimeout(() => {
-            window.location.replace("http://127.0.0.1:5500/DANIEL.html")
+            location.href="DANIEL.HTML";
         }, 1000)
     } else if (user.value === "JOSE") {
         setTimeout(() => {
-            window.location.replace("http://127.0.0.1:5500/JOSE.HTML")
+            location.href="JOSE.HTML";
         }, 1000)
     } else if (user.value === "JUAN") {
         setTimeout(() => {
-            window.location.replace("http://127.0.0.1:5500/JUAN.html")
+            location.href="JUAN.HTML";
         }, 1000)
     }
 }
