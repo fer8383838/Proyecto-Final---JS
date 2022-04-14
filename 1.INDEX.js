@@ -105,7 +105,7 @@ function cambioPagina() {
     let user = document.getElementById("userInput");
     if (user.value === "ANA") {
         setTimeout(() => {
-            location.href="ANA.HTML";
+            location.href="ANA.html";
         }, 1000)
     } else if (user.value === "DANIEL") {
         setTimeout(() => {
